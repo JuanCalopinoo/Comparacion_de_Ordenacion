@@ -1,1 +1,1 @@
-# Comparacion_de_Ordenacion
+# Comparacion_Algoritmos_De_Ordenacion
