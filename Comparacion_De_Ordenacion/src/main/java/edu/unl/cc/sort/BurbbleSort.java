@@ -20,7 +20,7 @@ public final class BurbbleSort {
             }
         }
         System.out.println("BubbleSort - Total de pasadas = " + pasadas);
-        System.out.println("BubbleSort - Total de intercambios = " + swaps);
+        System.out.println("BubbleSort - Total de swaps = " + swaps);
         System.out.println("BubbleSort - Total de comparaciones = " + comparisons);
     }
 }

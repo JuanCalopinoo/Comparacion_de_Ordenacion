@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a18125b-7664-4cd6-849b-ae35d33cc79c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unl/cc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unl/cc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unl/cc/datasets/pacientes_500.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unl/cc/datasets/pacientes_500.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unl/cc/model/Cita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unl/cc/model/Cita.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unl/cc/model/ItemInventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unl/cc/model/ItemInventario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unl/cc/model/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unl/cc/model/Paciente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/unl/cc/sort/BurbbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unl/cc/sort/BurbbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/unl/cc/sort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unl/cc/sort/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unl/cc/sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unl/cc/sort/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +45,7 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop__Anthony&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Desktop/Comparacion_de_Ordenacion/Comparacion_De_Ordenacion&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -80,6 +73,8 @@
       <workItem from="1763654282680" duration="908000" />
       <workItem from="1764043009738" duration="12808000" />
       <workItem from="1764057953071" duration="13000" />
+      <workItem from="1764076514450" duration="87000" />
+      <workItem from="1764076653091" duration="2663000" />
     </task>
     <servers />
   </component>
