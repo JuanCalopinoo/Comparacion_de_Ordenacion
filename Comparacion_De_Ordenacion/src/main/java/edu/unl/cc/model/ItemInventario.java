@@ -1,6 +1,7 @@
 package edu.unl.cc.model;
 
-public class ItemInventario {
+public class ItemInventario implements Comparable<ItemInventario> {
+
     private String id;
     private String insumo;
     private int stock;
@@ -15,29 +16,24 @@ public class ItemInventario {
         return id;
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
-
     public String getInsumo() {
         return insumo;
-    }
-
-    public void setInsumo(String insumo) {
-        this.insumo = insumo;
     }
 
     public int getStock() {
         return stock;
     }
 
-    public void setStock(int stock) {
-        this.stock = stock;
+    @Override
+    public int compareTo(ItemInventario o) {
+        return Integer.compare(this.stock, o.stock);
     }
 
     @Override
     public String toString() {
-        return id + " |Insumo= " + insumo + " |Stock= " + stock + "\n";
+        return id + " | Insumo= " + insumo + " | Stock= " + stock + "\n";
     }
 }
+
+
 
