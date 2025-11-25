@@ -1,23 +1,29 @@
 package edu.unl.cc.model;
 
+import java.time.LocalDateTime;
 
 public class Cita implements Comparable<Cita> {
+
     public String id;
     public String apellido;
-    public String fechaHora; // formato ISO 2025-03-05T10:40
+    public LocalDateTime fechaHora;
 
-    public Cita(String id, String apellido, String fechaHora) {
+    public Cita(String id, String apellido, String fechaHoraTexto) {
         this.id = id;
         this.apellido = apellido;
-        this.fechaHora = fechaHora;
+        this.fechaHora = LocalDateTime.parse(fechaHoraTexto);
     }
 
+    @Override
     public int compareTo(Cita o) {
         return this.fechaHora.compareTo(o.fechaHora);
     }
+
     @Override
     public String toString() {
-        return id + " |Apellido= " + apellido + " |Fecha_Hora= " + fechaHora + "\n";
+        return id + " | Apellido= " + apellido + " | FechaHora= " + fechaHora + "\n";
     }
 }
+
+
 
